@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Create a virtual environment using uv
+uv venv
+
+# Run the example-cli script with all passed arguments inside the virtual environment
+uv run example-cli "$@"
